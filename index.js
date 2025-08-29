@@ -1,7 +1,7 @@
 console.log("Proyecto Fundamentos de Programación con JS");
 
 function calculateTip(billAmout, tipPercentage) {
-      return (billAmout, tipPercentage) / 100;
+      return billAmout *( tipPercentage / 100);
 };
 
 console.log(calculateTip(100, 10));
